@@ -1,0 +1,217 @@
+@charset "UTF-8"; /*!
+  Company Name: Cloud Lift Solutions
+  Company Site : https://www.cloudliftsolution.com/
+  Author: Eslam atef
+  Description: Digital Card 
+  Version: 1.0.0
+  */
+.heading,
+footer#footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+html {
+  min-height: 100%;
+}
+body,
+html {
+  font-family: Changa, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  font-size: 22px;
+  color: #fff;
+  overflow-x: hidden;
+  height: 100%;
+}
+div#main_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+svg {
+  display: block;
+}
+a,
+button,
+input,
+select,
+textarea {
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+a.btn.btn-primary,
+a.btn.btn-primary.email,
+a.btn.btn-primary.whatsapp,
+a.btn.btn-primary::before {
+  transition: 0.5s ease-out;
+}
+button {
+  cursor: pointer;
+  outline: 0;
+}
+img {
+  max-width: 100%;
+}
+.banner {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+img.banner {
+  float: left;
+  width: 100%;
+}
+.banner-mob,
+.banner-tab {
+  display: none;
+}
+section.social-links-sec {
+  float: left;
+  width: 100%;
+  padding: 2% 0 1%;
+  direction: rtl;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #17262B;
+  border-color: #17262B;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-check:focus + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:focus,
+.show > .btn-primary.dropdown-toggle,
+a.btn.btn-primary.email,
+a.btn.btn-primary.whatsapp,
+a.btn.btn-primary:hover {
+  color: #fff;
+  background-color: #17262b;
+  border: 1px solid #17262b;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  box-shadow: none;
+  box-shadow: 0 0 8px 0.3rem #88838330;
+}
+a.btn.btn-primary::before {
+  content: "";
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 7px;
+  right: 2px;
+}
+a.btn.btn-primary.whatsapp::before {
+  background: url(/assets/images/whatsapp.svg) no-repeat;
+}
+a.btn.btn-primary.call::before {
+  background: url(/assets/images/call.svg) no-repeat;
+}
+a.btn.btn-primary.instagram::before {
+  background: url(/assets/images/insta.svg) no-repeat;
+}
+a.btn.btn-primary.linked::before {
+  background: url(/assets/images/linkin.svg) no-repeat;
+}
+a.btn.btn-primary.menu::before {
+  background: url(/assets/images/company.svg) no-repeat;
+}
+a.btn.btn-primary.location::before {
+  background: url(/assets/images/location.svg) no-repeat;
+}
+a.btn.btn-primary.language::before {
+  background: url(/assets/images/language.svg) no-repeat;
+}
+a.btn.btn-primary:hover {
+  box-shadow: 0 0 8px 0.3rem #88838330;
+}
+a.btn.btn-primary.email:hover,
+a.btn.btn-primary.whatsapp:hover {
+  background-color: #b9d6f1;
+  border: 1px solid #b9d6f1;
+  color: #ffffff;
+  transition: 0.5s ease-out;
+  box-shadow: 0 0 8px 0.3rem #88838330;
+}
+footer#footer {
+  background: #181f2c;
+}
+footer#footer p {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 100;
+}
+footer#footer a {
+  color: #e4e4e4;
+  text-decoration: none;
+}
+section.banner.error {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  color: #000;
+  padding: 3%;
+}
+.error img {
+  padding: 0 3% 3%;
+}
+.heading p {
+  font-size: 25px;
+  font-weight: 200;
+}
+@media screen and (max-width: 992px) {
+  .banner-tab {
+    display: block;
+  }
+  .banner-desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 900px;
+  }
+  section.social-links-sec {
+    padding: 6% 0 1%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner-tab {
+    display: none;
+  }
+  .banner-mob {
+    display: block;
+  }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .heading p {
+    font-size: 18px;
+  }
+}
+
+
+
+
+a.btn.btn-primary.instagram:hover, a.btn.btn-primary.location:hover {
+    background-color: #b9d6f1;
+    border: 1px solid #b9d6f1;
+    color: #ffffff;
+    transition: 0.5s ease-out;
+    box-shadow: 0 0 8px 0.3rem #88838330;
+}
